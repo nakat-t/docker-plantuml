@@ -3,7 +3,7 @@ LABEL maintainer="nakat-t <armaiti.wizard@gmail.com>" \
       description="Docker image for PlantUML"
 
 ENV GRAPHVIZ_VERSION=2.40.1-r1
-ENV PLANTUML_VERSION=1.2019.13
+ENV PLANTUML_VERSION=1.2020.0
 
 RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/main/ >> /etc/apk/repositories
 RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing/ >> /etc/apk/repositories
