@@ -13,5 +13,5 @@ docker run --rm -v $PWD:/data nakatt/plantuml [options] file1/dir file2/dir file
 To create a SVG graph from standard input:
 
 ```
-echo file.puml | docker run --rm nakatt/plantuml -pipe -tsvg > file.svg
+cat file.puml | docker run --rm -i nakatt/plantuml -pipe -tsvg > file.svg
 ```
