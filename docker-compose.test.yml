@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  sut:
+    build:
+      context: .
+      target: test
+    command: /tests/run_tests.sh
+    environment:
+      - DOCKER_TAG
+    volumes:
+      - /:/data
